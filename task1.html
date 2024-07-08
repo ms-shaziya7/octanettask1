@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>FICTIONAL PRODUCT PRICING LANDING PAGE</title>
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+
+        <style>
+.button{
+color:blue;}
+             .body{
+                font-family:Arial,sans-serif;
+                 margin:0;
+                 padding:0;}
+.icons{
+background-color:blueviolet;
+color:#ddd;
+padding:20px;}
+            .header{
+              background-color:#999;
+              color:#fff;
+              padding:40px;
+              text-align:center;}
+             .navbar{
+              background-color:#444;
+              overflow:hidden;}
+             .navbar a{
+              float:left;
+              display:block;
+               color:#fff;
+               text-align:center;
+              padding:14px 20px;
+              text-decoration:none;}
+           .navbar a:hover{
+               background-color:#ddd;
+               color:#333;}
+            .search-container{
+              float:right;
+              padding:10px;}
+            input[type=text]{
+              padding:10px;
+              margin-top:8px;
+              font-size:17px;
+              border:none;}
+           input[type=text]:focus{
+              outline:none;}
+            .pricing-container{
+               
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color:aquamarine;
+                
+            }
+            .pricing-card{
+                margin: 20px;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+                text-align: center;
+                                background-color: #f7f7f7;
+cursor:pointer;
+transition:transform o.3s;
+box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            }
+.pricing-card :hover{
+transform:translateY(-5px);
+box-shadow:0 8px 16px rgba(0,0,0,0.2);}
+            .pricing-card img{
+                width: 100px;
+                height: 100px;
+                margin-bottom: 10px;
+            }
+            .pricing-card h3{
+                margin-bottom: 10px;
+               color:#333;
+            }
+.pricing-card p{
+color:#666;}
+.icons1{
+background-color:gold;}
+.icons2{
+background-color:lightblue;
+ margin: 20px;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+transform:translateY(-5px);
+}
+.image{
+background-color:aqua;
+ margin: 20px;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-radius: 8px;}
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="header">
+             <h1> SHOPPING WEBSITE</h1>
+            <div class="icons">
+                        <i class="ri-twitter-x-line"> TWITTER</i>&nbsp;|&nbsp;|&nbsp;
+
+                        <i class="ri-facebook-box-fill"></i>&nbsp;|&nbsp;|&nbsp;
+
+                        <i class="ri-instagram-line"></i>&nbsp;|&nbsp;|&nbsp;
+
+                    </div>
+             
+        </div>
+        <div class="navbar">
+         <a href="#">HOME</a>&nbsp;&nbsp;&nbsp;
+
+         <a href="#">PRODUCTS</a>
+         <a href="#">About</a>
+        <div class="search-container">
+           <form action="#">
+            <input type="text" placeholder="Enter the search.." name="search">
+            <button type="submit">Search</button>
+</form>
+</div>
+</div>
+        <div class="pricing-container">
+            
+<div class="pricing-card" onclick="addToCart(product1)" style="background-color:#90be6d;">
+            <img src="temp.jpg" alt="product1">
+            <h3>thermometer</h3>
+<p>$19.99</p>
+<p>high accurate temprature</p>
+<button>Add to cart</button>
+</div>
+<div class="pricing-card" onclick="addToCart(product2)" style="background-color:#f9c74f;">
+            <img src="shirt.jpg" alt="product2">
+            <h3>netplay shirsts</h3>
+<p>$29.99</p>
+<p>high quality fabric</p>
+<button>Add to cart</button>
+</div>
+<div class="pricing-card" onclick="addToCart(product3)" style="background-color:lightblue;">
+            <img src="spects.jpg" alt="product3">
+            <h3>lenskart</h3>
+<p>$39.99</p>
+<p>clearvision</p>
+<button>addto cart</button>
+</div>
+<div class="pricing-card" onclick="addToCart(product3)" style="background-color:black;">
+            <img src="shoes.jpg" alt="product3">
+            <h3>puma</h3>
+<p>$39.99</p>
+<p>runningshoes</p>
+<button>Add to cart</button>
+</div>
+<div class="pricing-card" onclick="addToCart(product3)" style="background-color:brown;">
+            <img src="shirt.jpg" alt="product3">
+            <h3>netplay</h3>
+<p>$39.99</p>
+<p>preminum fabric</p>
+<button>Add to cart</button>
+</div>
+<div class="pricing-card" onclick="addToCart(product3)" style="background-color:yellow;">
+            <img src="temp.jpg" alt="product3">
+            <h3>thermometer</h3>
+<p>$39.99</p>
+<p>high accurate values</p>
+<button>Add to cart</button>
+</div>
+</div>
+ <div class="icons2">
+<h2 align="center"> New arrivals</h2>
+<div class="pricing-card" onclick="addToCart(product3)" style="background-color:silver;">
+            <img src="Environmental.jpg" alt="product3">
+            <h3>Es book</h3>
+<p>$39.99</p>
+<p>study of enivorment</p>
+<button>Add to cart</button>
+</div>
+<div class="pricing-card" onclick="addToCart(product3)" style="background-color:gold;">
+            <img src="web.jpg" alt="product3">
+            <h3>laptop</h3>
+<p>$39.99</p>
+<p>new premium laptop</p>
+<button>Add to cart</button>
+</div>
+<div class="pricing-card" onclick="addToCart(product3)" style="background-color:aquablue;">
+            <img src="ES.jpg" alt="product3">
+            <h3>green book</h3>
+<p>$39.99</p>
+<p>study of green</p>
+<button>Add to cart</button>
+</div>
+                    </div>
+
+<script>
+function addToCart(procutName){
+alert(productName+"added to cart");
+</script>
+<div class="image">
+<marquee><img src="logo.jpg" height="50" width="100" style="background-color:red;">< <br><hr><h1 style="border:2px solid Tomato;">Hello World</h1><hr></marquee></div>
+<div class="icons1">
+<a href="#">&copy;2023|vignan<a>&nbsp;|&nbsp;|&nbsp;
+<a href="#">privacy policy<a>&nbsp;|&nbsp;|&nbsp;
+<a href="#">terms&conditions<a>&nbsp;|&nbsp;|&nbsp;
+<a href="#">FAQ<a>&nbsp;|&nbsp;|&nbsp;
+
+                    </div>
+
+
+    </body>
+</html>
